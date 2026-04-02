@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 650px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+/* Input Fields */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #dfe6e9;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f8f9fa;
+  color: #2c3e50;
+  transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button.save:hover {
+  background: #219150;
+}
+
+button.delete {
+  background: #e74c3c;
+  color: white;
+}
+
+button.delete:hover {
+  background: #c0392b;
+}
+
+/* Notes List */
+.notes-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Note Card */
+.note-card {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease-in-out;
+  border: 2px solid #ecf0f1;
+  position: relative;
+}
+.note-card:hover {
+  transform: scale(1.03);
+  border-color: #3498db;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.note-card h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.note-card p {
+  color: #7f8c8d;
+  margin: 8px 0;
+}
+
+/* Buttons inside Note Card */
+.note-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.note-card button {
+  width: 48%;
+}
