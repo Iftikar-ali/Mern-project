@@ -1,8 +1,25 @@
-# React + Vite
+# 📝 Notes App (MERN Stack)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack notes-taking application built using the MERN stack. This project allows users to create, read, update, and delete notes with a clean and responsive UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
+* *Full CRUD Functionality:* Create, Read, Update, and Delete notes.
+* *Responsive Design:* Works on desktop and mobile.
+* *REST API:* Built with Express and Node.js.
+* *Database:* Managed with MongoDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+* *Frontend:* React.js, Vite, Tailwind CSS
+* *Backend:* Node.js, Express.js
+* *Database:* MongoDB
+* *State Management:* Hooks (useState, useEffect)
+
+## 📁 Project Structure
+* frontend/ - React application (Vite)
+* backend/ - Node.js server and API routes
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Iftikar-ali/Mern-project.git
